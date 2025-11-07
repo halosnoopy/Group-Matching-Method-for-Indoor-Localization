@@ -46,3 +46,14 @@ This process avoids searching the entire database and focuses only on regions th
 
 <img width="985" height="744" alt="image" src="https://github.com/user-attachments/assets/78c1e748-e98c-493b-9e27-169896d76a47" />
 
+## Repository Files and Descriptions
+
+| File | Description |
+|------|--------------|
+| **ag_comp.py** | Main experiment script. Automatically runs the localization experiments with different hyperparameters (k and n). The generated results can be used to compare the performance of different algorithms. |
+| **ag_utils.py** | Contains utility functions developed to support the implementation of the algorithms, such as data loading, evaluation metrics, and helper routines. |
+| **da_utils.py** | Includes functions used for data analysis, statistical processing, and visualization support. |
+| **data_analysis.ipynb** | Jupyter Notebook used to explore and analyze the dataset before running experiments. Provides visual insights into signal distributions and feature behaviors. |
+| **gmknn.py** | Implements both the **GMM** and the conventional **KNN** algorithm for indoor localization. Used as the core module for comparison studies. |
+| **results_analysis.ipynb** | Jupyter Notebook for visualizing experimental results. It generates plots and figures to compare algorithm performance under different parameter settings and datasets. |
+
