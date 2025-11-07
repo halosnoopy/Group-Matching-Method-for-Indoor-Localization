@@ -30,6 +30,9 @@ This creates two datasets:
 
 These datasets are ready for quick lookup during localization.
 
+<img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/c97b1589-0a58-4cb1-940a-aa203e87e3a3" />
+
+
 ---
 
 ### 2. Online Localization
@@ -40,3 +43,6 @@ When a new signal measurement is received:
 4. Finally, the user’s position is estimated by averaging the coordinates of the closest matching points.
 
 This process avoids searching the entire database and focuses only on regions that share similar AP patterns, improving both speed and accuracy.
+
+<img width="985" height="744" alt="image" src="https://github.com/user-attachments/assets/78c1e748-e98c-493b-9e27-169896d76a47" />
+
